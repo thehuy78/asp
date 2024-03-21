@@ -1,0 +1,95 @@
+.home {
+    width: 100%;
+    max-width: var(--mw);
+    margin: auto;
+    padding-top: 1.5rem;
+}
+.sec1_home {
+    background-image: url("../assets//image//banner/banner1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+
+    .content {
+        width: 100%;
+        padding: 1rem;
+        color: white;
+        .title {
+            font-size: 1.5rem;
+            font-weight: 500;
+            padding: 1rem 0;
+        }
+        p:nth-child(2) {
+            font-size: 1.2rem;
+            font-style: italic;
+            padding: 0rem 0 2rem 0;
+        }
+        p:nth-child(3) {
+            padding: 0rem 0 1rem 0;
+        }
+        p:nth-child(5) {
+            padding: 1rem 0 1rem 0;
+        }
+    }
+}
+.sec2_home {
+    padding-top: 2rem;
+    .box_title {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 0.7rem;
+        border-bottom: 0.05rem solid var(--gray);
+        .title {
+            font-size: 1.4rem;
+            font-weight: 550;
+        }
+        .link_edit {
+            p {
+                color: var(--violet);
+            }
+        }
+    }
+    .list_item {
+        padding: 1rem 0;
+
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+}
+
+.sec3_home {
+    padding-top: 2rem;
+    .box_title {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 0.7rem;
+        border-bottom: 0.05rem solid var(--gray);
+        .title {
+            font-size: 1.4rem;
+            font-weight: 550;
+        }
+        .link_edit {
+            p {
+                color: var(--violet);
+            }
+        }
+    }
+    .box_colection {
+        display: grid;
+        padding: 1rem 0;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 0.5rem;
+        .colection {
+            .title_colection {
+                color: white;
+                font-size: 1.2rem;
+                font-weight: 550;
+                background-color: var(--violet);
+                width: fit-content;
+                padding: 0.5rem 5rem 0.5rem 1rem;
+            }
+        }
+    }
+}

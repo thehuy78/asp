@@ -1,0 +1,38 @@
+.box_item_ver1 {
+    width: 100%;
+    padding: 0.7rem 0.5rem;
+
+    .item {
+        width: 100%;
+        cursor: pointer;
+        .box_image {
+            width: 100%;
+            position: relative;
+
+            img {
+                width: 100%;
+                border-radius: 0.5rem;
+            }
+        }
+        .content {
+            .title {
+                width: 100%;
+                height: fit-content;
+                max-height: 2.5rem;
+                overflow: hidden;
+                font-weight: 500;
+                padding-bottom: 0.2rem;
+            }
+            .rank {
+                i {
+                    font-size: 0.7rem;
+                    color: var(--gray);
+                    padding-right: 0.2rem;
+                }
+                span {
+                    font-size: 0.8rem;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,30 @@
+.light_book {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+@keyframes light_book {
+    0% {
+        background-position: 150% 50%;
+        opacity: 1;
+    }
+    100% {
+        background-position: -50% 0%;
+        opacity: 1;
+    }
+}
+.box_item_ver1 {
+    .item:hover .light_book {
+        background: linear-gradient(
+            110deg,
+            rgba(255, 255, 255, 0) 30%,
+            #ffffff82 5%,
+            rgba(255, 255, 255, 0.231) 15%,
+            rgba(255, 255, 255, 0) 50%
+        );
+        background-size: 200% 200%;
+        animation: light_book 0.7s ease;
+    }
+}

@@ -1,0 +1,40 @@
+.footer {
+    width: 100%;
+    border-top: 0.05rem solid var(--gray);
+    padding: 1rem 0;
+    .footer_container {
+        width: 100%;
+        max-width: var(--mw);
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: auto;
+        .box_1 {
+            .box_image {
+                width: 100%;
+                img {
+                    width: 60%;
+                }
+                p {
+                    font-size: 0.7rem;
+                }
+            }
+        }
+        .box_2 {
+            p {
+                padding: 0.3rem 0;
+                font-weight: 450;
+                color: var(--violet);
+                display: flex;
+                align-items: end;
+                i {
+                    font-size: 0.6rem;
+                    padding-right: 0.4rem;
+                }
+                span {
+                    font-size: 0.87rem;
+                }
+            }
+        }
+    }
+}
