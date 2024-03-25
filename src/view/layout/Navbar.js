@@ -8,14 +8,14 @@ export default class Navbar extends Component {
                 <div className='navbar_container'>
                     <div className='nav_left'>
                         <div className='box_logo'>
-                            <Link to='/asp.net/' className="link_edit">
+                            <Link to='/' className="link_edit">
                                 <img src={require('../../assets/image/logo/logo.png')} alt="" />
                             </Link>
                         </div>
                         <div className='box_menu'>
                             <p className='title'>Your fictional stories hub.</p>
                             <div className='list_menu'>
-                                <Link to='/asp.net/search' className="link_edit">
+                                <Link to='/search' className="link_edit">
                                     <p><i class="fa-solid fa-magnifying-glass"></i><span>Search</span></p>
                                 </Link>
                                 <Link to='' className="link_edit">

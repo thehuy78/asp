@@ -21,10 +21,10 @@ function App() {
           <Navbar />
         </header>
         <Switch>
-          <Route path="asp.net/search" exact>
+          <Route path="/search" exact>
             <Search />
           </Route>
-          <Route path="asp.net/" exact>
+          <Route path="/" exact>
             <Home />
           </Route>
         </Switch>
